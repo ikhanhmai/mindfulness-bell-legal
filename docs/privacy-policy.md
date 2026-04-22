@@ -75,4 +75,4 @@ We may update this policy from time to time. Changes will be posted on this page
 
 ## Contact
 
-If you have questions about this privacy policy, contact us at: ikhanhmaimmo@gmail.com
+If you have questions about this privacy policy, contact us at: blueblazedev@outlook.com
