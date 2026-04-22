@@ -47,4 +47,4 @@ We reserve the right to modify these terms at any time. Continued use of the App
 
 ## Contact
 
-Questions about these terms? Contact us at: ikhanhmaimmo@gmail.com
+Questions about these terms? Contact us at: blueblazedev@outlook.com
