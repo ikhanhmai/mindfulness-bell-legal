@@ -1,7 +1,7 @@
 # Privacy Policy
 
 **Mindfulness Bell Premium**
-**Last updated:** April 17, 2026
+**Last updated:** July 15, 2026
 
 ## Overview
 
@@ -29,15 +29,21 @@ If you enable cloud sync, your observations, settings, and acknowledgments are e
 
 ### Analytics
 
-We use **TelemetryDeck** for anonymous, aggregated analytics. TelemetryDeck is a privacy-first analytics service that:
+We use **TelemetryDeck** for pseudonymous, aggregated usage analytics. "Pseudonymous" means signals carry a one-way hashed identifier so we can count distinct users — we cannot reverse it to identify you. TelemetryDeck is a privacy-first analytics service that:
 
 - Does **not** use cookies or device fingerprinting
 - Does **not** collect personally identifiable information (PII)
 - Does **not** track users across apps or websites
 - Does **not** share data with advertisers or data brokers
-- Collects only anonymous usage patterns (e.g., which screens are viewed, feature usage counts)
+- Collects only usage patterns (e.g., which screens are viewed, feature usage counts)
 
-We do **not** use Apple's App Tracking Transparency (ATT) because we do not track users.
+**What is collected:** in-app events such as screen views, feature usage counts, bell schedule shape (interval and window — never journal content), purchase funnel outcomes (success/cancel/failure category — never payment details), plus **automatic session signals** sent by the TelemetryDeck SDK itself (app launch, session start, app version, OS version, device model class, language).
+
+**Analytics is on by default** and disclosed here. You can turn it off at any time in **Settings › Privacy › Usage Analytics**. Turning it off takes effect immediately: custom events stop instantly and the analytics SDK is shut down, so its automatic session signals stop too. While analytics is off, the SDK is never started on later launches.
+
+**Retention:** analytics signals are retained by TelemetryDeck in aggregated form; raw signals age out per [TelemetryDeck's privacy policy](https://telemetrydeck.com/privacy/). We store your consent choice (on/off, version, timestamp) only on your device.
+
+We do **not** use Apple's App Tracking Transparency (ATT) because we do not track users across apps or websites.
 
 ## Data We Do NOT Collect
 
@@ -54,7 +60,7 @@ We do **not** use Apple's App Tracking Transparency (ATT) because we do not trac
 | Apple StoreKit | Subscription purchases | [Apple Privacy](https://www.apple.com/privacy/) |
 | RevenueCat | Subscription management | [RevenueCat Privacy](https://www.revenuecat.com/privacy/) |
 | Supabase | Cloud sync (optional) | [Supabase Privacy](https://supabase.com/privacy) |
-| TelemetryDeck | Anonymous analytics | [TelemetryDeck Privacy](https://telemetrydeck.com/privacy/) |
+| TelemetryDeck | Pseudonymous usage analytics | [TelemetryDeck Privacy](https://telemetrydeck.com/privacy/) |
 
 None of these services receive data for advertising purposes.
 
@@ -63,7 +69,7 @@ None of these services receive data for advertising purposes.
 - **Delete your data:** Go to Settings > Account > Delete Account to remove all cloud data and your account.
 - **Export your data:** Premium users can export all observations from Settings.
 - **Opt out of sync:** Cloud sync is optional and only available to premium subscribers who sign in.
-- **No tracking opt-out needed:** We don't track you, so there's nothing to opt out of.
+- **Opt out of analytics:** Turn off Settings › Privacy › Usage Analytics. All analytics — including the SDK's automatic session signals — stop immediately.
 
 ## Children's Privacy
 
