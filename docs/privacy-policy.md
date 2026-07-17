@@ -1,7 +1,7 @@
 # Privacy Policy
 
 **Mindfulness Bell Premium**
-**Last updated:** July 15, 2026
+**Last updated:** July 17, 2026
 
 ## Overview
 
@@ -43,15 +43,19 @@ We use **TelemetryDeck** for pseudonymous, aggregated usage analytics. "Pseudony
 
 **Retention:** analytics signals are retained by TelemetryDeck in aggregated form; raw signals age out per [TelemetryDeck's privacy policy](https://telemetrydeck.com/privacy/). We store your consent choice (on/off, version, timestamp) only on your device.
 
+**Google Analytics (Firebase).** We also use Google Analytics for Firebase (GA4) as a second analytics service, running in parallel with TelemetryDeck under the same on/off switch. Firebase Analytics collects a **pseudonymous app-instance identifier** — a random, app-scoped ID that is reset when you reinstall the app; it is **not** your advertising identifier (IDFA) and is not used to track you across apps or websites — together with the same in-app usage events described above, and sends them to Google acting as our data processor. It is configured **without** advertising-identifier (IDFA) support and without Google "signals," so no App Tracking Transparency prompt is shown. Because analytics is on by default, Google receives data from your first launch unless you turn analytics off; the same **Settings › Privacy › Usage Analytics** switch stops Google Analytics collection too. Data is handled per [Google's Analytics data-retention controls](https://support.google.com/analytics/answer/7667196) and [Firebase's privacy and security terms](https://firebase.google.com/support/privacy).
+
 We do **not** use Apple's App Tracking Transparency (ATT) because we do not track users across apps or websites.
 
 ## Data We Do NOT Collect
 
 - Email address
-- Device identifiers (IDFA, IDFV)
+- Advertising identifier (IDFA) or ad-tracking data
 - Location data
 - Contacts, photos, or other personal data
-- Advertising or tracking data
+- Cross-app or cross-site tracking data
+
+*(Note: our analytics services use pseudonymous, non-advertising identifiers — a hashed TelemetryDeck signal id and a Firebase app-instance id — as described in the Analytics section. These are not linked to your identity and are not used for tracking.)*
 
 ## Third-Party Services
 
@@ -61,6 +65,7 @@ We do **not** use Apple's App Tracking Transparency (ATT) because we do not trac
 | RevenueCat | Subscription management | [RevenueCat Privacy](https://www.revenuecat.com/privacy/) |
 | Supabase | Cloud sync (optional) | [Supabase Privacy](https://supabase.com/privacy) |
 | TelemetryDeck | Pseudonymous usage analytics | [TelemetryDeck Privacy](https://telemetrydeck.com/privacy/) |
+| Google Analytics (Firebase) | Pseudonymous usage analytics (no IDFA/ads) | [Google Privacy](https://policies.google.com/privacy) · [Firebase](https://firebase.google.com/support/privacy) |
 
 None of these services receive data for advertising purposes.
 
